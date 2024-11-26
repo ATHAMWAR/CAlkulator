@@ -1,0 +1,43 @@
+#calculator{
+    background-color: rgb(36, 36, 36);
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#display{
+    width: 100%;
+    padding: 15px;
+    font-size: 55px;
+    color: aliceblue;
+    background-color: rgb(36, 36, 36);
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(67, 63, 63);
+    color: aliceblue;
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+.sariq{
+    background-color: orange;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(236, 232, 225);
+    color: black;
+}
+h1{
+    font-size: 4rem;
+    color: green;
+    font-weight: bold;
+}
